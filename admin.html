@@ -6,7 +6,7 @@
 <section id="login" class="panel"><h2>Administrator sign-in</h2><p class="muted">Sign in with the authorised Google account.</p><button id="login-btn">Sign in with Google</button><div id="login-status" class="status"></div></section>
 <section id="workspace" class="hidden">
 <div class="panel"><strong id="who"></strong><div class="actions"><button id="refresh" class="secondary">Refresh submissions</button><button id="logout" type="button" class="secondary">Sign out</button></div><div id="queue-status" class="status"></div></div>
-<section class="panel"><h2>Add a dictionary entry</h2><p class="muted">Entries added here are published immediately. No approval is required.</p>
+<section id="add-entry-panel" class="panel" style="border:3px solid #123b35;background:#fff"><h2 style="font-size:26px;margin-top:0">ADD NEW WORD</h2><p class="muted">Entries added here are published immediately. No approval is required.</p>
 <form id="entry-form">
 <label for="entry-term">Énuani word</label><input id="entry-term" name="term" required maxlength="100" autocomplete="off" style="display:block;width:100%;padding:12px;margin:6px 0 14px;border:1px solid var(--line);border-radius:9px;font:inherit">
 <label for="entry-meaning">English meaning / translation</label><textarea id="entry-meaning" name="meaning" required maxlength="500" rows="3" style="display:block;width:100%;padding:12px;margin:6px 0 14px;border:1px solid var(--line);border-radius:9px;font:inherit"></textarea>
